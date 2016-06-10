@@ -36,6 +36,8 @@ describe('Concatenating strings with bridgeString1', function () {
     expect(bridgeString1(testString1)).to.be.a('string');
   });
 
+//I replaced testString with testString1 because of the error that came up in th console. Also, 
+// this was verified by an instructor that this file had a bug. 
   it('gives back a concatenated string', function () {
     expect(bridgeString1(testString1)).to.equal(testString1 + testString2);
   });
